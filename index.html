@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MineSweeper - NirF</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body onload="initGame()">
+
+    <div class="all">
+
+        <h2 class="main-header">MineSweeper</h2>
+
+        <div class="all-buttons">
+    
+            <div class="hint hint1" onclick="hint(this)">Hint</div>
+            <div class="hint hint2" onclick="hint(this)">Hint</div>
+            <div class="hint hint3" onclick="hint(this)">Hint</div>
+    
+    
+            <img class="safe-click" onclick="saveMe()" src="img/save-me.jpg">
+            <div class="safe-amount">
+                <h2></h2>
+            </div>
+    
+            <button class="manual-Btn" onclick="manualMode()">Manual Mode</button>
+    
+            <button class="undo" onclick="undo()">Undo</button>
+    
+            <button class="seven-boom" onclick="sevenBoom()">7 BOOM</button>
+    
+            <div class="clock">
+                <h3 class="time-passed">Timer: <span> </span> </h3>
+            </div>
+    
+            <img class="face" onclick="restart()" src="img/happy.jpg">
+    
+            <h3 class="lives">Lives: <span></span> </h3>
+    
+            <h3 class="best-score-header">Best Score <span></span> </h3>
+            <h2 class="best-score"> <span></span></h2>
+    
+            <button class="level4" onclick="setLevel(4,2)">Beginner</button>
+            <button class="level8" onclick="setLevel(8,12)">Medium</button>
+            <button class="level12" onclick="setLevel(12,30)">Expert</button>
+    
+            <div class="end-game">
+                <h1></h1>
+            </div>
+    
+        </div>
+    
+        <table border="1" class="table">
+            <tbody class="game-table"></tbody>
+        </table>
+
+    </div>
+   
+    <script src="js/game-handler.js"></script>
+    <script src="js/gvariables.js"></script>
+    <script src="js/cell-clicked-handler.js"></script>
+    <script src="js/buttons-handler.js"></script>
+    <script src="js/utils.js"></script>
+    
+</body>
+
+</html>

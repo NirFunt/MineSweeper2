@@ -1,0 +1,257 @@
+* {
+    box-sizing: border-box;
+}
+
+body { 
+    background-color: lightskyblue;
+    /* background-image: url("/img/explode4.png"); */
+    /* background-image: url("../img/explode4.png");
+    background-repeat: no-repeat; */
+    /* background-position: center center; */
+    /* background-attachment: fixed; */
+    /* background-size: cover; */
+    /* background-position: 500px; */
+   
+}
+
+.all {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../img/explode4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.all-buttons {
+    position: relative;
+    width: 100%;
+    height:20%;
+    /* background-color:lightgrey; */
+    margin-bottom: 20px;
+}
+
+.main-header {
+    position: absolute;
+    left: 40%;
+    top: 0%;
+    /* left: 40%px; */
+    color:darkorange;
+    font-weight: bold;
+}
+
+table {
+    position: absolute;
+    left: 35%;
+    bottom: 45%
+     /* left: 40%px; */
+}
+
+ tr, td {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.cover {
+  background-color: gray;  
+}
+
+td img {
+    width: 35px;
+    height: 35px;
+}
+
+div button {
+    background-color: red;
+    right: 200px;
+}
+
+div button:hover {
+    cursor: pointer;
+}
+
+
+.hint {
+    background-color: gold;
+    width: 60px;
+    height: 50px;
+    border-radius: 50%;
+    color: purple;
+    padding: 15px;
+    font-weight: bold;
+    }
+    
+    .hint1 {
+      position: absolute;
+      left: 1%;
+      bottom: 45%;
+    }
+    .hint2 {
+        position: absolute;
+        left: 9%;
+        bottom: 45%;
+    }
+    .hint3 {
+        position: absolute;
+        left: 17%;
+        bottom: 45%;
+    }
+    
+    .hint-hide {
+        display: none;
+    }
+    
+    .safe-click {
+        height: 50%;
+        width: 13%;
+        position: absolute;
+        left: 7%;
+        bottom: -10%;
+    }
+    
+    .safe-amount {
+        position: absolute;
+        left: 17%;
+        bottom: -15%;
+        padding: 10px;
+        color: hotpink;
+        font-size: 250%;
+    }
+
+    .lives span {
+        color: red;
+        display: inline;
+        font-size: 25px;
+    }
+
+
+    .face {
+        width: 10%;;
+        height: 50%;
+        cursor: pointer;
+        position: absolute;
+        left: 40%;
+        bottom:10% ;
+         /* left: 40%px; */
+    }
+    
+    .lives {
+        display: inline;
+        width: 100px;
+        position: absolute;
+        left: 29%;
+        bottom:40% ;
+        color:red;
+        font-size: 25px;
+         /* left: 40%px; */
+    }
+    
+    .time-passed {
+        display: inline;
+        width: 30px;
+    }
+    
+    .clock {
+        
+        position: absolute;
+        left: 29%;
+        bottom:40% ;
+        color: lightsteelblue;
+        font-size: 20px;
+    }
+    
+    .best-score-header {
+        width: 250px;
+        position: absolute;
+        left: 29%;
+        bottom:10% ;
+        color: gold;
+    }
+    
+    .best-score {
+        display: inline;
+        width: 250px;
+        position: absolute;
+        left: 33%;
+        bottom:-5% ;
+        color: gold;
+    }
+
+.end-game {
+    margin-bottom: 20px;
+    height: 50px;
+}
+.end-game h1 {
+    color: rgb(rgb(178, 187, 57), green, blue);
+    position: absolute;
+    left: 38%;
+    bottom:-20% ;
+    color: gold;
+}
+
+.mark {
+    border: hotpink 4px solid ;
+}
+
+
+.manual-Btn {
+    height: 40%;
+    width: 9%;
+    border-radius: 50%;
+    position: absolute;
+    left: 74%;
+    bottom:30% ;
+}
+
+.undo { 
+    position: absolute;
+    left: 85%;
+    bottom:30% ;
+    height: 40%;
+    width: 9%;
+    border-radius: 50%;
+    background-color: blueviolet;
+}
+
+.seven-boom {
+    position: absolute;
+    left: 63%;
+    bottom:30% ;
+    height: 40%;
+    width: 9%;
+    border-radius: 50%;
+    background-color:brown;
+}
+
+
+.level4 {
+    position: absolute;
+    left: 63%;
+    bottom:-10% ;
+    background-color:chartreuse;
+    border-radius: 20%;
+    height: 30%;
+    padding: 10px;
+}
+
+.level8 {
+    position: absolute;
+    left: 74%;
+    bottom:-10% ;
+    background-color:purple;
+    border-radius: 20%;
+    height: 30%;
+    padding: 10px;
+}
+
+.level12 {
+    position: absolute;
+    left: 86%;
+    bottom:-10% ;
+    background-color: red ;
+    border-radius: 20%;
+    height: 30%;
+    padding: 10px;
+}
