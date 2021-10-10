@@ -6,10 +6,10 @@ function setLevel(size, mines) {
     gLevel.size = size;
     gLevel.mines = mines;
     restart();
-    if (size === 4) document.querySelector('table').style.left = 35 + '%';
-    if (size === 8) document.querySelector('table').style.left = 25 + '%';
-    if (size === 12) document.querySelector('table').style.left = 10 + '%';
-    if (size === 4) document.querySelector('table').style.bottom = 50 + '%';
+    if (size === 4) document.querySelector('table').style.left = 30 + '%';
+    if (size === 8) document.querySelector('table').style.left = 30 + '%';
+    if (size === 12) document.querySelector('table').style.left = 30 + '%';
+    if (size === 4) document.querySelector('table').style.bottom = 40 + '%';
     if (size === 8) document.querySelector('table').style.bottom = 25 + '%';
     if (size === 12) document.querySelector('table').style.bottom = 6 + '%';
 }
