@@ -9,9 +9,9 @@ function setLevel(size, mines) {
     if (size === 4) document.querySelector('table').style.left = 30 + '%';
     if (size === 8) document.querySelector('table').style.left = 30 + '%';
     if (size === 12) document.querySelector('table').style.left = 30 + '%';
-    if (size === 4) document.querySelector('table').style.bottom = 40 + '%';
-    if (size === 8) document.querySelector('table').style.bottom = 25 + '%';
-    if (size === 12) document.querySelector('table').style.bottom = 6 + '%';
+    if (size === 4) document.querySelector('table').style.bottom = 0 + '%';
+    if (size === 8) document.querySelector('table').style.bottom = 0 + '%';
+    if (size === 12) document.querySelector('table').style.bottom = 0 + '%';
 }
 
 // start the hint logic
